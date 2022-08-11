@@ -1,5 +1,39 @@
+:root {
+    /* Primary */
+    --veryDarkMagenta: hsl(300, 43%, 22%);
+    --softPink: hsl(333, 80%, 67%);
+    /* Neutral */
+    --darkGrayishMagenta: hsl(303, 10%, 53%);
+    --LlightGrayishMagenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-size: 0.9375rem;
+    font-family: 'League Spartan', sans-serif;
+}
+
+aside li {
+    list-style: none;
+}
+
+aside li::before {
+    content: 
+        url(images/icon-star.svg)
+        url(images/icon-star.svg)
+        url(images/icon-star.svg)
+        url(images/icon-star.svg)
+        url(images/icon-star.svg);
+
+}
 .attribution {
   font-size: 11px;
   text-align: center;
