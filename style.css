@@ -57,6 +57,7 @@ main {
 }
 
 aside {
+    max-width: 24rem;
     min-height: 16.125rem;
     width: 100%;
 }
@@ -162,7 +163,7 @@ aside li {
 
     .intro h1 {
         font-size: 3.125rem;
-        padding-inline: 0;
+        padding-inline: 2.875rem;
     }
 
     .intro p {
